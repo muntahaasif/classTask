@@ -1,0 +1,82 @@
+.nav{
+    display: flex;
+}
+.logo{
+    margin-left: 90px;
+}
+.links{
+    margin-left: 280px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul:hover{
+    cursor: pointer;
+}
+.login{
+    height: 25px;
+    width: 60px;
+    background-color: rgb(202, 15, 15); 
+
+    border: none;
+    color: white;
+    margin-top: 12px;
+    margin-left: 380px;
+}
+.hero-sec{
+    height: 500px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-top: 50px;
+}
+.text{
+    height: 300px;
+    width: 50%;
+    /* background-color: blanchedalmond; */
+    margin-left: 90px;
+}
+.heading{
+    font-family: "Public Sans Web", sans-serif;
+    font-weight: 20px;
+    font-size: 80px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(102, 102, 102);
+    margin-top: -50px;
+}
+.two-btn{
+    display: flex;
+    gap: 30px;
+}
+.btn-two{
+    background-color:  rgb(202, 15, 15);
+    color: white;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    margin-top: 420px;
+    margin-left: -630px;
+    width: 100px;
+    cursor: pointer;
+}
+.cate{
+    background-color: transparent;
+    border: 1px solid  rgb(102, 102, 102);
+    height: 40px;
+    padding: 10px;
+    width: 100px;
+    margin-top: 420px;
+    cursor: pointer;
+}
+.image{
+    height: 300px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
